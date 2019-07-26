@@ -1,2 +1,4 @@
 node_modules
 dist
+11/utils/dbconnect.ts
+src/config/dbconfig.ts
