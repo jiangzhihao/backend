@@ -3,6 +3,9 @@
     "module": "commonjs",
     "target": "es2017",
     "noImplicitAny": true,
+    "esModuleInterop": true, // 支持commonJS格式导出，es6 Module写法import导入
+    "experimentalDecorators": true, // 支持装饰器
+    "emitDecoratorMetadata": true,
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist", // TS文件编译后会放入到此文件夹内
