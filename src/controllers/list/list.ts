@@ -1,10 +1,11 @@
-import { Ctx, Param, Get, JsonController } from "routing-controllers";
+import { Ctx, Param, Get, JsonController, Redirect } from "routing-controllers";
 import { Context } from "koa";
 import UserInfo from "../../models/user/user-info";
 
 @JsonController("/list")
 export default class {
   @Get("/")
+  @Redirect("http://github.com")
   async router(@Ctx() ctx: Context) {
     try {
       return {

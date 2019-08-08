@@ -6,6 +6,7 @@ import { dbconfig } from "./config";
 import { MysqlConfig } from "config";
 
 const app = createKoaServer({
+  cors: true,
   controllers: [`${__dirname}/controllers/**/*{.js,.ts}`]
 });
 
