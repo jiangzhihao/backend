@@ -3,5 +3,5 @@ export type MysqlConfig = {
   username: string;
   password: string;
   database: string;
-  modelPaths: Array<string>;
+  models: Array<string>;
 };
