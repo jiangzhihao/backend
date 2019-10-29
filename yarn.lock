@@ -1686,8 +1686,8 @@ sequelize-typescript@^1.0.0:
     glob "7.1.2"
 
 sequelize@^5.10.0:
-  version "5.10.3"
-  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-5.10.3.tgz#a4bafc3c540f1fa1a28752b9f8cdfacbba025715"
+  version "5.15.1"
+  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-5.15.1.tgz#f130ded17e74395ae7f5e265277c99577e895afb"
   dependencies:
     bluebird "^3.5.0"
     cls-bluebird "^2.1.0"
